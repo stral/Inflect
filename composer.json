@@ -1,0 +1,15 @@
+{
+	"name": "randsonjs/inflect",
+	"description": "A PHP class to handle words in Portuguese",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Randson Oliveira",
+			"email": "randsonjs@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+
+	}
+}
