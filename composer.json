@@ -2,6 +2,7 @@
 	"name": "randsonjs/inflect",
 	"description": "A PHP class to handle words in Portuguese",
 	"license": "MIT",
+	"homepage": "https://github.com/stral/Inflect",
 	"authors": [
 		{
 			"name": "Randson Oliveira",
