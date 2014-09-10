@@ -32,7 +32,7 @@ class PHPNativeElementsTest extends PHPUnit {
 	 **/
 	public function testOperationMath()
 	{
-		$this->assertEquals(3, $this->math->sum(1, 2), 'Não somou corretamente');
+		$this->assertEquals(3, $this->math->sum(1, 2), 'not added correctly');
 	}
 
 }
