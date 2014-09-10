@@ -1,8 +1,9 @@
 <?php 
 
 use PHPUnit_Framework_TestCase as PHPUnit;
+use Application\Inflect\Inflect as Inflect;
 
-class PHPNativeElementsTest extends PHPUnit {
+class InflectTest extends PHPUnit {
 
 	/**
 	 * undocumented function
@@ -23,5 +24,5 @@ class PHPNativeElementsTest extends PHPUnit {
 	{
 		
 	}
-
+	
 }
