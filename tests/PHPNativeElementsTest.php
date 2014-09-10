@@ -11,7 +11,7 @@ class PHPNativeElementsTest extends PHPUnit {
 	 **/
 	public function setUp()
 	{
-
+		$this->math = new Math;
 	}
 
 	/**
@@ -21,7 +21,17 @@ class PHPNativeElementsTest extends PHPUnit {
 	 **/
 	public function tearDown()
 	{
-		
+
+	}
+
+	/**
+	 * Test Operation Math
+	 *
+	 * @return void
+	 **/
+	public function testMath()
+	{
+		$this->assertEquals(3, $this->math->(1, 2), 'Não somou corretamente');
 	}
 
 }
