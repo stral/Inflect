@@ -1,6 +1,7 @@
 <?php 
 
 use PHPUnit_Framework_TestCase as PHPUnit;
+use Application\NativeElements\Math;
 
 class PHPNativeElementsTest extends PHPUnit {
 
@@ -29,9 +30,9 @@ class PHPNativeElementsTest extends PHPUnit {
 	 *
 	 * @return void
 	 **/
-	public function testMath()
+	public function testOperationMath()
 	{
-		$this->assertEquals(3, $this->math->(1, 2), 'Não somou corretamente');
+		$this->assertEquals(3, $this->math->sum(1, 2), 'Não somou corretamente');
 	}
 
 }
